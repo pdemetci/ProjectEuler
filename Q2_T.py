@@ -13,5 +13,5 @@ for i in range(1,400):
 	if i == 1:
 		Fibonacci.append(1)
 	else:
-		Fibonacci.append(Fibonacci[i] + Fibonacci[i-1])
+		Fibonacci.append(Fibonacci[i-2] + Fibonacci[i-1])
 print Fibonacci
