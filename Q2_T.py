@@ -9,9 +9,15 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 sum = 0
 i = 1
 Fibonacci=[1]
-for i in range(1,400):
+for i in range(1,10):
 	if i == 1:
 		Fibonacci.append(1)
 	else:
 		Fibonacci.append(Fibonacci[i-2] + Fibonacci[i-1])
 print Fibonacci
+
+for i in range(1,10):
+	if Fibonacci[i] % 2 == 0:
+		sum += Fibonacci[i]
+
+print sum
