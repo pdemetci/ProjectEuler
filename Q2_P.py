@@ -10,7 +10,7 @@ def Fibonacci(n):
 		return 1
 	elif n == 1:
 		return 1
-	else: return Fibonacci(n-1)+Fibonacci(n-2)
+	else: return Fibonacci(n-2)+Fibonacci(n-1)
 
 
 def sum_fibonacci(n):
