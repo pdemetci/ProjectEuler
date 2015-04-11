@@ -13,10 +13,11 @@ def is_prime(n):
 		return True
 	else: return False
 
-def largest_prime_factor(n):
-	prime_factors=[]
+def divisors(n):
+	divisor=[]
 	for i in range(2,n):
-		if n&i == 0 and is_prime(i)== True:
-			prime_factors.append(i)
-	print prime_factors
+		if n%i == 0 and is_prime(i) :
+			divisor.append(i)
+	return max(divisor)
 
+print divisors(3395)
