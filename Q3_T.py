@@ -18,6 +18,7 @@ for i in range (1,100000):
 print list_of_prime_factors
 
 
+
 for i in range(0,len(list_of_prime_factors)):
 	product = product * list_of_prime_factors[i]
 	if product == 600851475143:
