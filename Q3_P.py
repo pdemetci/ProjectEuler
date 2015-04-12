@@ -11,8 +11,10 @@ def is_prime(n):
 			divisors.append(i)
 	if divisors == []:
 		return True
-	else: return False
+	else: print divisors
 
+
+is_prime(600851475143)
 def divisors(n):
 	divisor=[]
 	for i in range(2,n):
@@ -20,4 +22,4 @@ def divisors(n):
 			divisor.append(i)
 	return max(divisor)
 
-print divisors(3395)
+print divisors(125)
