@@ -6,7 +6,6 @@ What is the largest prime factor of the number 600851475143 ?
 list_of_prime_factors = []
 max_prime_factor = 1
 number = 24
-number = 125
 sum_list=1
 product = 1
 
